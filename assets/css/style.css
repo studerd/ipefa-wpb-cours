@@ -1,0 +1,45 @@
+body,html{
+    background:#fafafa;
+}
+
+
+/* ceci est le style pour un id ==> id="header" */
+#header{
+    border:1px solid green;
+    background: red;
+    color: white;
+    padding: 5px;
+}
+
+
+/* ceci est le stylr pour une classe ==> class="border-red" */
+.border-black{
+    border:1px solid #000000;
+}
+/* ceci est le stylr pour une classe ==> class="border-red" */
+.border-red{
+    color:blue;
+    border:1px solid red;
+}
+/* ceci est le style pour une balise */
+header{
+    border:1px solid black;
+    color: black;
+    padding: 5px;
+}
+
+.card{
+    border:1px solid #eeeeee;
+    background:#FFFFFF;
+    color:#434343;
+    padding:1rem;
+    .border-red{
+        border:1px solid green;
+    }
+}
+
+.card-error{
+    border:1px solid red;
+    color:red;
+    border-radius:22px;
+}
